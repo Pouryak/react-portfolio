@@ -1,0 +1,32 @@
+.toggle {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.5rem 0.6rem 0.3rem 0.6rem;
+  animation: moveInTop 0.15s;
+  transition: all 0.2s ease;
+}
+
+.light {
+  background-color: #845ef7;
+}
+
+.dark {
+  background-color: #fbd38d;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(-0.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

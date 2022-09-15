@@ -1,0 +1,14 @@
+.hero {
+  background-color: var(--bg-secondary);
+  padding: 0.3rem 4rem;
+  border-radius: 8px;
+  max-width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.hero h1 {
+  font-size: 1rem;
+  font-weight: 400;
+}

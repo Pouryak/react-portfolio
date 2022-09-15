@@ -1,0 +1,13 @@
+.dark-theme {
+  --bg-primary: rgb(32, 32, 35);
+  --bg-secondary: rgba(225, 225, 225, 0.08);
+  --glass: rgba(32, 32, 35, 0.5);
+  --text-color: rgb(255, 255, 255, 0.92);
+}
+
+.light-theme {
+  --bg-primary: rgb(240, 231, 219);
+  --bg-secondary: rgba(255, 255, 255, 0.36);
+  --glass: #ffffff40;
+  --text-color: #1a202c;
+}
