@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Socials = () => {
   return (
-    <section className="socials">
+    <div className="socials">
       <h3>Socials</h3>
       <div className="social-box">
         <ImGithub color="var(--text-color)" />
@@ -25,7 +25,7 @@ const Socials = () => {
           @pourya.js
         </a>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer p {
+  color: var(--text-color);
+  opacity: 0.55;
+  font-size: 0.9rem;
+}

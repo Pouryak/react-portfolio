@@ -1,6 +1,6 @@
 import React from "react";
 import "./Profile.css";
-import Gigachad from "../assets/images/gigachad.jpg";
+import Gigachad from "../../assets/images/gigachad.jpg";
 
 const Profile = () => {
   return (

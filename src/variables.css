@@ -4,6 +4,7 @@
   --glass: rgba(32, 32, 35, 0.5);
   --text-color: rgb(255, 255, 255, 0.92);
   --accent: #96f2d7;
+  --hover: rgba(35, 107, 83, 0.281);
 }
 
 .light-theme {
@@ -12,4 +13,5 @@
   --glass: #ffffff40;
   --text-color: #1a202c;
   --accent: #4a9780;
+  --hover: rgba(35, 107, 83, 0.281);
 }

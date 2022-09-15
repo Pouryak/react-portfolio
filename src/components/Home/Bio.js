@@ -4,7 +4,7 @@ import "./Bio.css";
 const Bio = () => {
   return (
     <>
-      <section className="bio">
+      <div className="bio">
         <h3>Bio</h3>
         <div className="bio-item">
           <span>1993</span>
@@ -35,7 +35,7 @@ const Bio = () => {
           Cars, books, football, working out, fantasy/anime series and solving
           coding challenges
         </p>
-      </section>
+      </div>
     </>
   );
 };

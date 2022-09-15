@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Main from "./components/layouts/Main";
-import Profile from "./components/Profile";
+import Navbar from "./components/Global/Navbar";
+import Footer from "./components/Global/Footer";
+import Home from "./pages/HomePage";
+import Posts from "./pages/PostsPage";
+import Works from "./pages/WorksPage";
 
 function App() {
   const [theme, setTheme] = useState("dark-theme");
@@ -22,7 +25,21 @@ function App() {
   return (
     <div className="App">
       <Navbar onClick={darkModeToggle} darkModeState={theme} />
-      <Main />
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/works">
+          <Works />
+        </Route>
+        <Route path="/posts">
+          <Posts />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }

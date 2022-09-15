@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ImGithub } from "react-icons/im";
 import "./Navbar.css";
 import ToggleButton from "./ToggleButton";
 
@@ -11,14 +13,26 @@ const Navbar = (props) => {
     <div className="navbar">
       <div className="navb">
         <div className="leftnav">
-          <a href="/" alt="logo" className="logo">
+          <Link to="/" alt="logo" className="logo">
             Pourya Karami
-          </a>
+          </Link>
           <nav className="nav">
             <ul>
-              <li>Works</li>
-              <li>Posts</li>
-              <li>Github</li>
+              <li>
+                <Link className="link" to="/works">
+                  Works
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/posts">
+                  Posts
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/">
+                  <ImGithub color="var(--text-color)" size={14} /> Source
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
