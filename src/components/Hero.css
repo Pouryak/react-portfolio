@@ -1,8 +1,7 @@
 .hero {
   background-color: var(--bg-secondary);
-  padding: 0.3rem 4rem;
+  padding: 0.2rem 4rem;
   border-radius: 8px;
-  max-width: fit-content;
   text-align: center;
   margin: 0 auto;
   margin-top: 4rem;

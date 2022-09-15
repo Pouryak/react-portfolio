@@ -1,0 +1,18 @@
+.profile {
+  display: flex;
+  margin: 1.8rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-textbox h2 {
+  font-size: 2.4rem;
+  line-height: 0.5rem;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  border: 2px solid var(--bg-secondary);
+}

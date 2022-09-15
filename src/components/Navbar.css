@@ -1,8 +1,11 @@
 .navbar {
-  padding: 0.5rem;
   background: var(--glass);
   z-index: 2;
   backdrop-filter: blur(10px);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navb {
@@ -17,6 +20,9 @@
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 0.1px;
+  font-weight: 600;
 }
 
 .nav ul {
@@ -25,8 +31,8 @@
 }
 
 .nav li {
-  margin-left: 1rem;
   font-size: 1rem;
+  margin-left: 1.3rem;
 }
 
 .leftnav {

@@ -4,6 +4,7 @@
   padding: 0.5rem 0.6rem 0.3rem 0.6rem;
   animation: moveInTop 0.15s;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .light {

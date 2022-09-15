@@ -3,6 +3,7 @@
   --bg-secondary: rgba(225, 225, 225, 0.08);
   --glass: rgba(32, 32, 35, 0.5);
   --text-color: rgb(255, 255, 255, 0.92);
+  --accent: #96f2d7;
 }
 
 .light-theme {
@@ -10,4 +11,5 @@
   --bg-secondary: rgba(255, 255, 255, 0.36);
   --glass: #ffffff40;
   --text-color: #1a202c;
+  --accent: #4a9780;
 }
