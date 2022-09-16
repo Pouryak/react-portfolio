@@ -19,12 +19,7 @@ const Work = () => {
         generated Lorem Ipsum is therefore always free from repetition, injected
         humour, or non-characteristic words etc.
       </p>
-      <Button />
-      {/* <div className="btn-box">
-        <a className="btn-general" href="/">
-          My Portfolio
-        </a>
-      </div> */}
+      <Button path="/works">My Portfolio</Button>
     </section>
   );
 };

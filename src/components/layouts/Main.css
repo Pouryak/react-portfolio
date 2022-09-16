@@ -1,7 +1,6 @@
 .main {
   max-width: 500px;
   margin: 0 auto;
-  min-height: 100vh;
   margin-top: 8rem;
   animation: moveInBottom 1s ease-out;
   /* Fixing scroll behavior at start */

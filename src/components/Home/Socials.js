@@ -14,15 +14,15 @@ const Socials = () => {
         </a>
       </div>
       <div className="social-box">
-        <ImTwitter color="var(--text-color)" />
-        <a className="social" href="/">
-          @planyzed
-        </a>
-      </div>
-      <div className="social-box">
         <FaInstagram color="var(--text-color)" />
         <a className="social" href="/">
           @pourya.js
+        </a>
+      </div>
+      <div className="social-box">
+        <ImTwitter color="var(--text-color)" />
+        <a className="social" href="/">
+          @planyzed
         </a>
       </div>
     </div>
