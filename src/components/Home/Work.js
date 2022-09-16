@@ -1,5 +1,6 @@
 import React from "react";
 import "./Work.css";
+import Button from "../Global/Button";
 
 const Work = () => {
   return (
@@ -18,11 +19,12 @@ const Work = () => {
         generated Lorem Ipsum is therefore always free from repetition, injected
         humour, or non-characteristic words etc.
       </p>
-      <div className="btn-box">
-        <a className="portfolio-btn" href="/">
+      <Button />
+      {/* <div className="btn-box">
+        <a className="btn-general" href="/">
           My Portfolio
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

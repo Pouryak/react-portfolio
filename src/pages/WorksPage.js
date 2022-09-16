@@ -1,14 +1,14 @@
 import React from "react";
 import Main from "../components/layouts/Main";
-import Posts from "../components/layouts/Posts";
+import WorksGrid from "../components/layouts/WorksGrid";
 
-const Works = () => {
+const WorksPage = () => {
   return (
     <Main>
       <h3>Works</h3>
-      <Posts />
+      <WorksGrid />
     </Main>
   );
 };
 
-export default Works;
+export default WorksPage;

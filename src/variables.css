@@ -4,7 +4,10 @@
   --glass: rgba(32, 32, 35, 0.5);
   --text-color: rgb(255, 255, 255, 0.92);
   --accent: #96f2d7;
+  --accent-2: rgb(255, 99, 195);
   --hover: rgba(35, 107, 83, 0.281);
+  --tags: #9ae6b4;
+  --tags-bg: rgba(154, 230, 180, 0.16);
 }
 
 .light-theme {
@@ -13,5 +16,8 @@
   --glass: #ffffff40;
   --text-color: #1a202c;
   --accent: #4a9780;
+  --accent-2: #4dabf7;
   --hover: rgba(35, 107, 83, 0.281);
+  --tags: #212c25;
+  --tags-bg: #c6f6d5;
 }

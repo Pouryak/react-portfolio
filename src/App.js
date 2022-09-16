@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+
 import Navbar from "./components/Global/Navbar";
 import Footer from "./components/Global/Footer";
-import Home from "./pages/HomePage";
-import Posts from "./pages/PostsPage";
-import Works from "./pages/WorksPage";
+import HomePage from "./pages/HomePage";
+import WorksPage from "./pages/WorksPage";
+import SinglePostPage from "./pages/SinglePostPage";
+import NotFound from "./pages/404";
 
 function App() {
   const [theme, setTheme] = useState("dark-theme");
@@ -25,20 +27,13 @@ function App() {
   return (
     <div className="App">
       <Navbar onClick={darkModeToggle} darkModeState={theme} />
-      <Switch>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/works">
-          <Works />
-        </Route>
-        <Route path="/posts">
-          <Posts />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<HomePage />} exact />
+        <Route path="/works" element={<WorksPage />} exact />
+        <Route path="/works/:workId" element={<SinglePostPage type="work" />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
       <Footer />
     </div>
   );

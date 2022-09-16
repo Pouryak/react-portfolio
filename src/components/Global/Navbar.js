@@ -24,14 +24,13 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/posts">
-                  Posts
-                </Link>
-              </li>
-              <li>
-                <Link className="link" to="/">
+                <a
+                  className="link"
+                  href="https://github.com/Pouryak/react-portfolio"
+                  target="_blank"
+                >
                   <ImGithub color="var(--text-color)" size={14} /> Source
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>

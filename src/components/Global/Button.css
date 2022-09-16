@@ -1,0 +1,14 @@
+.btn-box {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-general {
+  text-decoration: none;
+  background-color: var(--accent);
+  color: var(--bg-primary);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+}
