@@ -28,6 +28,7 @@ const Navbar = (props) => {
                   className="link"
                   href="https://github.com/Pouryak/react-portfolio"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <ImGithub color="var(--text-color)" size={14} /> Source
                 </a>
