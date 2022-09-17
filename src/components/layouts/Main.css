@@ -5,6 +5,8 @@
   animation: moveInBottom 1s ease-out;
   /* Fixing scroll behavior at start */
   overflow-anchor: none;
+
+  padding: 0 40px;
 }
 
 @keyframes moveInBottom {

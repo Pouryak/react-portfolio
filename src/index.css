@@ -22,3 +22,15 @@ body {
 
   background-color: var(--bg-primary);
 }
+
+@media only screen and (max-width: 470px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p,
+  span,
+  a {
+    font-size: 1.1rem;
+  }
+}

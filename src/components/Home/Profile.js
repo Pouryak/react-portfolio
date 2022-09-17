@@ -9,7 +9,9 @@ const Profile = () => {
         <h2>Pourya Karami</h2>
         <p>Digital Craftsman ( Developer / Designer )</p>
       </div>
-      <img src={Gigachad} alt="Pourya K" className="profile-image" />
+      <div className="profile-image-box">
+        <img src={Gigachad} alt="Pourya K" className="profile-image" />
+      </div>
     </div>
   );
 };
